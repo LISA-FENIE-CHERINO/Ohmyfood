@@ -52,18 +52,18 @@ ul a {
 }
 
 .first {
-  -webkit-animation: delay 1s ease-in-out;
-          animation: delay 1s ease-in-out;
+  -webkit-animation: delay 3s ease-in-out;
+          animation: delay 3s ease-in-out;
 }
 
 .second {
-  -webkit-animation: delay 2s ease-in-out;
-          animation: delay 2s ease-in-out;
+  -webkit-animation: delay 4s ease-in-out;
+          animation: delay 4s ease-in-out;
 }
 
 .third {
-  -webkit-animation: delay 3s ease-in-out;
-          animation: delay 3s ease-in-out;
+  -webkit-animation: delay 5s ease-in-out;
+          animation: delay 5s ease-in-out;
 }
 
 .restaurant__list__heart:hover .full-heart {
@@ -157,6 +157,10 @@ ul a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -165,6 +169,7 @@ ul a {
           align-items: center;
   -webkit-animation: loader__end 0.5s ease forwards 3s;
           animation: loader__end 0.5s ease forwards 3s;
+  opacity: 0.9;
 }
 
 .loader__spinner {
@@ -187,7 +192,7 @@ header {
           justify-content: center;
 }
 
-header .header__logo {
+header .h1 {
   width: 150px;
   padding: 10px;
 }
@@ -206,7 +211,7 @@ header .header__logo {
 
 header .fa-arrow-left {
   position: absolute;
-  top: 2%;
+  top: 3.5%;
   left: 5%;
   font-size: 1.2rem;
 }
@@ -448,7 +453,6 @@ button:hover {
   right: 1.9rem;
   background: -webkit-gradient(linear, left top, left bottom, from(#9356dc), to(#ff79da));
   background: linear-gradient(#9356dc, #ff79da);
-  background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
   -webkit-transform: scale(0);
@@ -672,4 +676,4 @@ footer .fa-hands-helping {
 .menu__choice__btn__order {
   width: 180px;
 }
-/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=style.css.map */
